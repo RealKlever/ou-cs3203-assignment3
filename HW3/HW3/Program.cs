@@ -10,7 +10,6 @@ namespace HW3
             int arrayLength = Int32.Parse(Console.ReadLine());
 
             int[] arr = new int[arrayLength];
-            int[] reverse = reverseArr(arr);
 
             for(int i = 0; i < arrayLength; i++) 
             { 
@@ -18,9 +17,14 @@ namespace HW3
                 arr[i] = Int32.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine(sumArr(arr));
-            Console.WriteLine(multArr(arr));
+            int[] reverse = reverseArr(arr);
 
+
+            Console.WriteLine("Sum of array: " + sumArr(arr));
+            Console.WriteLine("Product of array: " + multArr(arr));
+
+            Console.Write("Array in reverse: ");
+            // Prints reverse
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(reverse[i] + " ");
@@ -29,6 +33,7 @@ namespace HW3
             Console.ReadKey();
         }
 
+        // Adds all the indexes of the array
         static int sumArr(int[] arr)
         {
             int sum = 0;
@@ -41,6 +46,7 @@ namespace HW3
             return sum;
         }
 
+        // Multiplies all the indexes of the array
         static int multArr(int[] arr)
         {
             int product = 1;
@@ -53,6 +59,7 @@ namespace HW3
             return product;
         }
 
+        // Reverse the inputted array
         static int[] reverseArr(int[] arr)
         {
             int[] reverse = new int[arr.Length];
