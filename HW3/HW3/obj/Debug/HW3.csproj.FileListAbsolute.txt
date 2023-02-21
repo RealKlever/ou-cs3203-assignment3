@@ -1,0 +1,8 @@
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\bin\Debug\HW3.exe.config
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\bin\Debug\HW3.exe
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\bin\Debug\HW3.pdb
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\obj\Debug\HW3.csproj.AssemblyReference.cache
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\obj\Debug\HW3.csproj.SuggestedBindingRedirects.cache
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\obj\Debug\HW3.csproj.CoreCompileInputs.cache
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\obj\Debug\HW3.exe
+C:\Users\black\OneDrive\Desktop\School\Spring 2023\Software  Engineering\ou-cs3203-assignment3\HW3\HW3\obj\Debug\HW3.pdb
