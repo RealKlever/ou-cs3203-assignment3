@@ -19,5 +19,17 @@ namespace HW3
 
             return sum;
         }
+
+        static int multArr(int[] arr)
+        {
+            int product = 1;
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                product *= arr[i];
+            }
+
+            return product;
+        }
     }
 }
