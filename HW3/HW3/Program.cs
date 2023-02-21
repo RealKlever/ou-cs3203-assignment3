@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HW3
 {
@@ -49,6 +45,20 @@ namespace HW3
             }
 
             return product;
+        }
+
+        static int[] reverseArr(int[] arr)
+        {
+            int[] reverse = new int[arr.Length];
+            int x = 0;
+
+            for (int i = arr.Length - 1; i >= 0; i--)
+            {
+                reverse[x] = arr[i];
+                x++;
+            }
+
+            return reverse;
         }
     }
 }
