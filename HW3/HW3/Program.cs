@@ -10,6 +10,7 @@ namespace HW3
             int arrayLength = Int32.Parse(Console.ReadLine());
 
             int[] arr = new int[arrayLength];
+            int[] reverse = reverseArr(arr);
 
             for(int i = 0; i < arrayLength; i++) 
             { 
@@ -19,6 +20,11 @@ namespace HW3
 
             Console.WriteLine(sumArr(arr));
             Console.WriteLine(multArr(arr));
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(reverse[i] + " ");
+            }
 
             Console.ReadKey();
         }
